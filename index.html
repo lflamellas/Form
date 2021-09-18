@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
+    <title>Monster</title>
+</head>
+<body>
+    <div class="main"> 
+        <div class="left-side">
+            <img src="astronaut.png" alt="">
+        </div>
+        <div class="right-side">
+            <h1 class="form-title">Welcome</h1>
+            <p>Let us know your more!</p>
+            <form action="">
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Enter your name" required/>
+                </div>
+
+                <div class="form-item">
+                    <label for="alter-ego">Nickname</label>
+                    <input type="text" name="alter-ego" placeholder="Enter your nickname" required>
+                </div>  
+
+                <p>Gender</p>
+                <div class="form-item-checkbox">
+                    <input type="radio" name="gender">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender">
+                    <label for="gender">Female</label>
+                </div>
+
+                <p>Select the series you like</p>
+                <div class="form-item-checkbox">
+                    <div>
+                        <input type="checkbox" name="gender">
+                        <label for="gender">The Mentalist</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="gender">
+                        <label for="gender">White Collar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="gender">
+                        <label for="gender">That 70's show</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="gender">
+                        <label for="gender">Hannibal</label>
+                    </div>
+                </div>
+
+                <p>What pokémon would you be?</p>
+                <div>
+                    <select name="select">
+                        <option>Pikachu</option>
+                        <option>Charmander</option>
+                        <option>Bulbasaur</option>
+                        <option>Ekans</option>
+                        <option>Meow</option>
+                    </select>
+                </div>
+                <div class="send">
+                    <button>Submit</button>
+                </div>
+            </form>  
+        </div>
+    </div>
+</body>
+</html>
